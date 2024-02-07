@@ -64,23 +64,24 @@ Cada casa de um dígito representa uma potência de dez, pois há dez dígitos p
  1   2   3
 Em binário, com apenas dois dígitos, temos potências de dois para cada valor de casa:
 
-                             2²   2¹   20⁰
-Equivalente a:       4     2     1
+                             2²   2¹   2⁰
+Equivalente a:      
+                              4   2   1
 
 Com todas as lâmpadas ou interruptores desligados, ainda teríamos um valor de 0:
 
-2²   2¹   2⁰
-0    0    0
+                             2²   2¹   2⁰
+                             0    0    0
 
 Agora, se mudarmos o valor binário para, digamos, 0 1 1 , o valor decimal seria 3, uma vez que somamos o 2 e o 1:
 
-4   2   1
-0   1   1
+                             4   2   1
+                             0   1   1
 
 Se tivéssemos mais lâmpadas, poderíamos ter um valor binário de 110010 , que teria o valor decimal equivalente a 50:
 
-32   16   8    4     2     1
- 1      1    0    0     1     0
+                            32   16   8    4     2     1
+                             1    1   0    0     1     0
 
 Observe que 32 + 16 + 2 = 50 . Com mais bits, podemos contar até números ainda maiores.
 
