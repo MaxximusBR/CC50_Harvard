@@ -1,29 +1,17 @@
-Anotações da Aula de Scratch
+### Anotações da Aula de Scratch
 
-
-O que foi visto na aula?
+#### O que foi visto na aula?
 Que aula ein! Pensando em absorver todo o conteúdo apresentado no vídeo da Aula 0, temos aqui algumas anotações:
 
-
-Bem vindos(as)!
+### CONTEÚDO PROGRAMÁTICO
 
 O que é ciência da computação?
-
 Representando números
-
 Texto
-
 Imagens, videos e sons
-
 Algoritmos
-
 Pseudocodigo
-
 Scratch
-
-
-
-
 
 Bem vindo!
 
@@ -35,22 +23,15 @@ E o mais importante: o que importa neste curso não é tanto onde você termina 
 
 Para começar o curso, vamos recriar um componente de um jogo do Super Mario , depois construiremos um aplicativo da web chamado CS50 Finance que permitirá aos usuários comprar e vender ações virtualmente e terminaremos o curso com a criação de seu próprio projeto final.
 
- 
-
-O que é Ciência da Computação?
-
+ ### O que é Ciência da Computação?
 
 A ciência da computação é fundamentalmente sobre resolução de problemas.
 
 Podemos pensar na resolução de problemas como o processo de pegar algumas informações (detalhes sobre nosso problema) e gerar alguns resultados (a solução para nosso problema). A “caixa preta” no meio é a ciência da computação, ou o código que aprenderemos a escrever.
 
-
 Para começar a fazer isso, precisaremos de uma maneira de representar entradas (inputs) e saídas (outputs), para que possamos armazenar e trabalhar com informações de forma padronizada.
 
-
-
-Representando números
-
+### Representando números
 
 Podemos começar com a tarefa de marcar presença, contando o número de pessoas em uma sala. Com a nossa mão, podemos levantar um dedo de cada vez para representar cada pessoa, mas não poderemos contar muito alto. Este sistema é denominado unário, onde cada dígito representa um único valor de um.
 
@@ -68,7 +49,6 @@ Como os computadores funcionam com eletricidade, que pode ser ligada ou desligad
 Com uma lâmpada, por exemplo, podemos ligá-la para contar até 1.
 
 Com três lâmpadas, podemos acendê-las em padrões diferentes e contar de 0 (com as três apagadas) a 7 (com as três acesas):
-
 
 Dentro dos computadores modernos, não existem lâmpadas, mas milhões de pequenos interruptores chamados transistores que podem ser ligados e desligados para representar valores diferentes. Por exemplo, sabemos que o seguinte número em decimal representa cento e vinte e três.
 
@@ -103,9 +83,7 @@ Se tivéssemos mais lâmpadas, poderíamos ter um valor binário de 110010 , que
 
 Observe que 32 + 16 + 2 = 50 . Com mais bits, podemos contar até números ainda maiores.
 
- 
-
-Texto
+### Texto
 Para representar as letras, tudo o que precisamos fazer é decidir como os números são mapeados para as letras. Alguns humanos, muitos anos atrás, decidiram coletivamente um mapeamento padrão de números em letras. A letra “A”, por exemplo, é o número 65, e “B” é 66 e assim por diante. Ao usar o contexto, como quando estamos olhando uma planilha ou um e-mail, diferentes programas podem interpretar e exibir os mesmos bits como números ou texto.
 
 O mapeamento padrão, ASCII, também inclui letras minúsculas e pontuação.
@@ -121,7 +99,9 @@ Outros caracteres, como letras com acentos e símbolos em outros idiomas, fazem 
 Quando recebemos um emoji, nosso computador está apenas recebendo um número binário que mapeia para a imagem do emoji baseado no padrão Unicode. Por exemplo, o emoji “rosto com lágrimas de alegria” tem apenas os bits 000000011111011000000010:
 
 😂
-Imagem, vídeo e sons
+
+### Imagem, vídeo e sons
+
 Uma imagem, como a imagem do emoji, é composta de cores. Com apenas bits, podemos mapear números para cores também. Existem muitos sistemas diferentes para representar cores, mas um comum é RGB, que representa cores diferentes indicando a quantidade de vermelho, verde e azul dentro de cada cor.
 
 Por exemplo, nosso padrão de bits anterior, 72 , 73 e 33 pode indicar a quantidade de vermelho, verde e azul em uma cor. (E nossos programas saberiam que esses bits são mapeados para uma cor se abríssemos um arquivo de imagem, em vez de recebê-los em uma mensagem de texto.)
@@ -141,7 +121,7 @@ A música também pode ser representada com bits, com mapeamentos de números pa
 
 Os formatos de arquivo, como JPEG e PNG, ou documentos do Word ou Excel, também são baseados em algum padrão com o qual alguns humanos concordaram, para representar informações com bits.
 
-Algoritmos
+### Algoritmos
 Agora que podemos representar inputs e outputs, podemos trabalhar na resolução de problemas.
 
 Os humanos também podem seguir algoritmos, como receitas para cozinhar. Ao programar um computador, precisamos ser mais precisos com nossos algoritmos para que nossas instruções não sejam ambíguas ou mal interpretadas.
@@ -167,9 +147,7 @@ Em outras palavras, se a lista telefônica fosse de 1.000 para 2.000 páginas, p
 
 Quando escrevemos programas usando algoritmos, geralmente nos preocupamos não apenas com o quão corretos eles são, mas também com o quão bem projetados eles são, considerando fatores como eficiência.
 
- 
-
-Pseudocódigo
+### Pseudocódigo
 Podemos escrever pseudocódigo, que é uma representação de nosso algoritmo em inglês preciso (ou alguma outra linguagem humana):
 
 1 Pegue a lista telefônica
@@ -202,9 +180,8 @@ Algumas dessas linhas começam com verbos ou ações. Começaremos chamando esta
 11   Volte para a linha 3
 12 Caso contrário
 13   Desistir
+
 Também temos ramificações que levam a caminhos diferentes, como bifurcações na estrada, que chamaremos de condições:
-
-
 
 1 Pegue a lista telefônica
 2 Abra no meio da lista telefônica
@@ -249,4 +226,5 @@ Por último, temos palavras que criam ciclos, onde podemos repetir partes de nos
 11   Volte para a linha 3
 12 Caso contrário
 13   Desistir
+
 E estas são as notas da Aula 0, curtiu? 
