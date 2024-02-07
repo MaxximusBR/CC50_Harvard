@@ -5,13 +5,13 @@ Que aula ein! Pensando em absorver todo o conteúdo apresentado no vídeo da Aul
 
 ### CONTEÚDO PROGRAMÁTICO
 
-O que é ciência da computação?
-Representando números
-Texto
-Imagens, videos e sons
-Algoritmos
-Pseudocodigo
-Scratch
+- O que é ciência da computação?
+- Representando números
+- Texto
+- Imagens, videos e sons
+- Algoritmos
+- Pseudocodigo
+- Scratch
 
 Bem vindo!
 
