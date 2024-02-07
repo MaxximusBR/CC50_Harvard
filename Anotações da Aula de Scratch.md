@@ -137,7 +137,7 @@ Podemos folhear o livro duas páginas por vez, mas esse algoritmo não estará c
 
 Outro algoritmo seria abrir a lista telefônica ao meio, decidir se nosso nome estará na metade esquerda ou na metade direita do livro (porque o livro está em ordem alfabética) e reduzir o tamanho do nosso problema pela metade. Podemos repetir isso até encontrar nosso nome, dividindo o problema pela metade a cada vez. Com 1.024 páginas para começar, precisaríamos apenas de 10 etapas de divisão ao meio antes de termos apenas uma página restante para verificar. Podemos ver isso visualizado em uma animação de dividir uma lista telefônica ao meio repetidamente, em comparação com a animação de pesquisar uma página por vez.
 
-Na verdade, podemos representar a eficiência de cada um desses algoritmos com um gráfico:
+Na verdade, podemos representar a eficiência de cada um desses algoritmos com um [gráfico:](https://d2y5h3osumboay.cloudfront.net/5loprawzf0ymz0roisv6mpxt5wwz)
 
 
 Nossa primeira solução, pesquisar uma página por vez, pode ser representada pela linha vermelha: nosso tempo para resolver aumenta linearmente à medida que o tamanho do problema aumenta. n é um número que representa o tamanho do problema, portanto, com n páginas em nossas listas telefônicas, temos que realizar até n etapas para encontrar um nome.
