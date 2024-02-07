@@ -60,7 +60,7 @@ Portanto, 123 é 100 × 1 + 10 × 2 + 1 × 3 = 100 + 20 + 3 = 123.
 
 Cada casa de um dígito representa uma potência de dez, pois há dez dígitos possíveis para cada casa. O lugar mais à direita é para 100, o do meio 101 e o lugar mais à esquerda 10²
 
-10² 10¹ 10⁰
+10² 10¹ 10⁰ 
  1   2   3
 Em binário, com apenas dois dígitos, temos potências de dois para cada valor de casa:
 
