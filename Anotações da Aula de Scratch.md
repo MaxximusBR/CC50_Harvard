@@ -66,7 +66,8 @@ Em binário, com apenas dois dígitos, temos potências de dois para cada valor 
 
                              2²   2¹   2⁰
 Equivalente a:      
-                              4   2   1
+
+                             4    2    1                              
 
 Com todas as lâmpadas ou interruptores desligados, ainda teríamos um valor de 0:
 
