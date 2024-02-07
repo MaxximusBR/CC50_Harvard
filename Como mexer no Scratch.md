@@ -15,14 +15,14 @@ E descobriremos recursos adicionais, incluindo:
 
 Antes de aprendermos a usar uma linguagem de programação baseada em texto chamada C, usaremos uma linguagem de programação gráfica chamada Scratch , onde arrastaremos e soltaremos blocos que contêm instruções.
 
-Um programa simples em C que imprime “olá, mundo”, ficaria assim:
+Um programa simples em C que imprime “Hello, World”, ficaria assim:
 
 ```c
 #include <stdio.h>
 
 int main(void)
 {
-    printf("oi, mundo\n");
+    printf("Hello, World\n");
 }
 
 ```
