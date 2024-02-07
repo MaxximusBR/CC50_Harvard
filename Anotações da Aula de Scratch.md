@@ -5,6 +5,7 @@ Que aula ein! Pensando em absorver todo o conteúdo apresentado no vídeo da Aul
 
 ### CONTEÚDO PROGRAMÁTICO
 
+- Introdução
 - O que é ciência da computação?
 - Representando números
 - Texto
@@ -13,7 +14,7 @@ Que aula ein! Pensando em absorver todo o conteúdo apresentado no vídeo da Aul
 - Pseudocodigo
 - Scratch
 
-Bem vindo!
+### Introdução
 
 Eles transforamaram uma aquarela do século 18 do campus de Harvard feita por um aluno, Jonathan Fisher, no plano de fundo do palco.
 
@@ -226,5 +227,29 @@ Por último, temos palavras que criam ciclos, onde podemos repetir partes de nos
 11   Volte para a linha 3
 12 Caso contrário
 13   Desistir
+
+### Scratch
+
+O [Scratch](https://scratch.mit.edu/) é a maior comunidade do mundo de programação para crianças e uma linguagem de programação com uma interface visual simples que permite que os jovens criem histórias, jogos e animações digitais. O Scratch é projetado, desenvolvido e moderado pela Fundação Scratch, uma organização sem fins lucrativos.
+
+O Scratch promove o pensamento computacional e habilidades de resolução de problemas; ensino e aprendizagem criativos; autoexpressão e colaboração; e equidade em computação.
+
+O Scratch é gratuito e está disponível em mais de 70 idiomas.
+
+# Quem Usa o Scratch?
+
+O Scratch está concebido especialmente para jovens entre os 8 e os 16 anos de idade, mas é usado por pessoas com todas as idades. Milhões de pessoas criam projectos Scratch numa grande variedade de contextos, incluindo lares, escolas, museus, bibliotecas e centros comunitários.
+
+# Aprenda a Programar, Programe para Aprender
+
+Neste [TED Talk](https://www.ted.com/talks/mitch_resnick_let_s_teach_kids_to_code), o Mitch Resnick fundador do Scratch descreve porque a habilidade de codificar programas de computador é uma parte importante da alfabetização na sociedade atual. Quando as pessoas aprender a codificar no Scratch, elas aprendem uma estratégia importante para resolver problemas, planejar projetos e comunicar ideias.
+
+# Ao redor do Mundo
+
+O Scratch é utilizado em mais de 200 países e territórios diferentes e está disponível em mais de 70 idiomas. Para escolher entre os idiomas, clique no menu na parte inferior da página. Ou, no Editor de Projeto, clique no globo na parte superior da página. Para adicionar ou melhorar uma tradução, consulte a página [tradução](https://github.com/scratchfoundation/scratch-l10n/wiki/Guide-for-Scratch-Translators).
+
+# Scratch nas Escolas
+
+Estudantes de todos os níveis (do ensino básico ao superior) e disciplinas (como matemática, ciência da computação, artes e estudos sociais) estão aprendendo com o Scratch. Recursos para educadores estão disponíveis na página [Scratch para Educadores](https://scratch.mit.edu/educators).
 
 E estas são as notas da Aula 0, curtiu? 
