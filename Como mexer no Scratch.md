@@ -64,7 +64,6 @@ Agora nosso programa atinge os mesmos resultados, mas com menos blocos. Podemos 
 Podemos fazer com que o gato aponte para o mouse e se mova em direção a ele:
 
 ```python
-Copy code
 when green flag clicked
 forever
    point towards mouse-pointer
