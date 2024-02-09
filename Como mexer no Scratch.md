@@ -63,16 +63,16 @@ Agora nosso programa atinge os mesmos resultados, mas com menos blocos. Podemos 
 
 Podemos fazer com que o gato aponte para o mouse e se mova em direção a ele:
 
-scratch
+```python
 Copy code
 when green flag clicked
 forever
    point towards mouse-pointer
    move 1 steps
+```
 Experimentamos a extensão da caneta, usando o bloco “pen down” ("caneta para baixo") com uma condição:
 
-scratch
-Copy code
+```python
 when green flag clicked
 forever
    go to mouse-pointer
@@ -80,17 +80,20 @@ forever
       pen down
    else
       pen up
+```
+
 Aqui, movemos o gato até o ponteiro do mouse, e se o mouse for clicado, ou para baixo, colocamos o “pen down”, que desenha. Caso contrário, colocamos a caneta para cima. Repetimos isso muito rapidamente, uma e outra vez, e então produzimos o efeito de desenhar sempre que mantemos o mouse pressionado.
 
 Scratch também tem diferentes fantasias, ou imagens, que podemos usar para nossos personagens. Faremos um programa que pode contar:
 
-scratch
-Copy code
+```python
 when green flag clicked
 set counter to 1
 forever
      say counter for 1 seconds
      change counter by 1
+```
+
 Aqui, “counter” é uma variável, cujo valor podemos definir, usar e alterar. Vemos mais alguns programas, como o salto , em que o gato se move para frente e para trás na tela para sempre, girando sempre que estivermos na borda da tela.
 
 Podemos melhorar a animação fazendo com que o gato mude para uma roupa diferente a cada 10 passos no bounce1. Agora, quando clicamos na bandeira verde para executar nosso programa, vemos o gato alternar o movimento de suas pernas.
@@ -105,36 +108,39 @@ Outra extensão olha para o vídeo conforme capturado pela webcam do nosso compu
 
 Com vários sprites ou personagens, podemos ter diferentes conjuntos de blocos para cada um deles:
 
-scratch
-Copy code
+```python
 when green flag clicked
 forever
 if key [space] pressed? then
      say Marco! for 2 seconds
      broadcast event
+```
+
 Para um fantoche, temos esses blocos que dizem “Marco!” E, em seguida, um bloco de “broadcast” (“transmitir”). Este “evento” é usado para nossos dois sprites se comunicarem, por exemplo enviando uma mensagem nos bastidores. Portanto, o nosso outro fantoche pode simplesmente esperar por este “evento” para dizer “Polo!”:
 
-scratch
-Copy code
+```python
 when I receive event
 say Polo! for 2 seconds
 Também podemos usar a extensão “Translate” para dizer algo em outros idiomas:
+```
 
-scratch
-Copy code
+```python
 when green flag clicked
 ask Qual é seu nome? and wait
 say translate join [olá] answer to English
+```
+
 Aqui, o resultado do bloco “join” é usado como entrada para o bloco “translate”, cujo resultado é passado como entrada para o bloco “say”.
 
 Agora que sabemos algumas noções básicas, podemos pensar sobre o design ou a qualidade de nossos programas. Por exemplo, podemos querer que o gato mia três vezes com o bloco "repeat"(repetir):
 
-scratch
-Copy code
+```python
 when green flag clicked
 repeat 3
  play sound Meow until done
      wait 1 seconds
+```
+
 Podemos usar abstração, o que simplifica um conceito mais complexo. Neste caso, podemos definir nosso próprio bloco “miau” no Scratch e reutilizá-lo em outro lugar em nosso programa, como visto em miau3 . A vantagem é que não precisamos saber como o miado é implementado ou escrito em código, mas apenas usá-lo em nosso programa, tornando-o mais legível.
 
 Podemos até definir um bloco com uma entrada em meow4 , onde temos um bloco que faz o gato miar um certo número de vezes. Agora podemos reutilizar esse bloco em nosso programa para miar qualquer número de vezes, da mesma forma como podemos usar os blocos “traduzir” ou “falar”, sem saber os detalhes de implementação ou como o bloco realmente funciona.
