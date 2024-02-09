@@ -49,7 +49,7 @@ No canto inferior esquerdo da tela, vemos um ícone para extensões, e um deles 
 
 A extensão "text-to-speech”, graças à nuvem, ou servidores de computador na internet, está convertendo nosso texto em áudio. Podemos tentar fazer o gato dizer miau:
 
-```scracth
+```python
 when green flag clicked
 play sound: Meow until done
 wait 1 seconds
