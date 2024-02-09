@@ -49,13 +49,14 @@ No canto inferior esquerdo da tela, vemos um ícone para extensões, e um deles 
 
 A extensão "text-to-speech”, graças à nuvem, ou servidores de computador na internet, está convertendo nosso texto em áudio. Podemos tentar fazer o gato dizer miau:
 
-scratch
-Copy code
+```c
 when green flag clicked
 play sound: Meow until done
 wait 1 seconds
 play sound: Meow until done
 wait 1 seconds
+```
+
 Podemos dizer miau três vezes, mas agora estamos repetindo blocos indefinidamente. Vamos usar um loop ou um bloco de “repeat” (“repetição”):
 
 Agora nosso programa atinge os mesmos resultados, mas com menos blocos. Podemos considerar que ele tem um design melhor: se há algo que queremos mudar, só precisaríamos mudar em um lugar ao invés de três.
